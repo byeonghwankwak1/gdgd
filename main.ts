@@ -9,4 +9,5 @@ input.onGesture(Gesture.Shake, function () {
 })
 basic.forever(function () {
     radio.setGroup(1)
+    radio.sendNumber(0)
 })
