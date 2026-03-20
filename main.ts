@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-	
+    music.ringTone(262)
 })
 input.onGesture(Gesture.Shake, function () {
     basic.showLeds(`
